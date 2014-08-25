@@ -25,9 +25,9 @@ plot(x,y, type="n", xlab="", ylab="Energy sub metering")
 lines(x, psub$sub_metering_1)
 lines(x, psub$sub_metering_2, col = "red")
 lines(x, psub$sub_metering_3, col = "blue")
-legend("topright", c("sub_metering_1", "sub_metering_2", "sub_metering_3"), 
+legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
         lty=1, lwd = 0.2, cex = 0.35, y.intersp = 0.25, xjust = 1, 
-        col=c("black", "red", "blue"), inset = 0.025)
+        col=c("black", "red", "blue"), bty = "n", inset = 0)
 
 #plot 4: datetime by global reactive power
 x <- psub$datetime
