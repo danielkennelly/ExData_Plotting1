@@ -4,7 +4,6 @@ source("datprep.R")
 png(filename = "plot4.png", width = 480, height = 480, 
         units = "px", bg = "transparent")
 
-
 #2 by 2 plot
 par(mfrow = c(2,2))
 
